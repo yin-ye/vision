@@ -1,5 +1,3 @@
-## General info
-
 # AI Trainer
 > Takes an stream (either a video or a live webcam) and tracks the number of squats done.
 
@@ -41,8 +39,7 @@ Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are
 
 
 ## Room for Improvement
-Room for improvement:
--Enable software to detect other exercises such as push-ups, side planks
+Enable software to detect other exercises such as push-ups, side planks
 
 
 ## Acknowledgements
