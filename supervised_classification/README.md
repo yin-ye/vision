@@ -1,5 +1,5 @@
 # Supervided Classification - KNN, SVM
-> Perform image segmentation using simple machine learning algorithms
+> Perform image classification using simple machine learning algorithms
 
 ## Table of Contents
 * [Technologies Used](#technologies-used)
@@ -19,6 +19,7 @@
 
 
 ## Screenshots
+![Classification plot](./img.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
