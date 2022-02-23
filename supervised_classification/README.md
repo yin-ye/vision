@@ -19,7 +19,7 @@
 
 
 ## Screenshots
-![Classification plot](./img.png)
+![Classification plot](./img.PNG)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
