@@ -20,6 +20,14 @@ if __name__ == "__main__":
     direction = 0
     previous_time = 0
 
+    frame_width = int(capture.get(3))
+    frame_height = int(capture.get(4))
+
+    size = (frame_width, frame_height)
+    recorded_video = cv2.VideoWriter('filename.avi',
+                             cv2.VideoWriter_fourcc(*'XVID'),
+                             20, size)
+
     # only perform action while video is available
     while capture.isOpened():
         success, img = capture.read()
@@ -58,7 +66,9 @@ if __name__ == "__main__":
         cv2.putText(img, f'FPS: {int(FPS)}', (40, 50), cv2.FONT_HERSHEY_COMPLEX, 1, (18, 255, 255), 3)
 
         # Show resultant image
+        recorded_video.write(img)
         cv2.imshow("Image", img)
         cv2.waitKey(1)
 
+    recorded_video.release()
     capture.release()

@@ -58,8 +58,5 @@ if __name__ == "__main__":
     plt.show()
     # Calculating Model Accuracy
     accuracy = accuracy_score(y_test, y_pred) * 100
-<<<<<<< HEAD
+
     print('Accuracy of the model:' + str(round(accuracy, 2)) + ' %.')
-=======
-    print('Accuracy of the model:' + str(round(accuracy, 2)) + ' %.')
->>>>>>> a2194aa342c6d63401802059ac7196c1eea22721

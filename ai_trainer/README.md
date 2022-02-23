@@ -31,7 +31,7 @@ List the ready features here:
 
 
 ## Usage
-`python3 knn.py`
+`python3 ai_trainer.py`
 
 
 ## Project Status
