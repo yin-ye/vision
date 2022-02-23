@@ -15,7 +15,8 @@
 
 
 ## Screenshots
-![Example screenshot](./object_detection.png)
+![Object Detection Using Mask RCNN](./object_detection.png)
+![Mask Extraction](./coloured_blob.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
