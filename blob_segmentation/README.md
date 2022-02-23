@@ -3,7 +3,6 @@
 
 ## Table of Contents
 * [Technologies Used](#technologies-used)
-* [Features](#features)
 * [Screenshots](#screenshots)
 * [Usage](#usage)
 <!-- * [License](#license) -->
