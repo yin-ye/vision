@@ -83,6 +83,8 @@ if __name__ == "__main__":
         for cnt in contours:
             cv2.fillPoly(roi, [cnt], (int(colour[0]), int(colour[1]), int(colour[2])))
 
+    cv2.imwrite("coloured_blob.png", empty_img)
+    cv2.imwrite("object_detection.png", img)
 
     cv2.imshow("Coloured Blob image", empty_img)
     cv2.imshow('Object Detection', img)
