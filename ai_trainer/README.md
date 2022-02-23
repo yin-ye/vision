@@ -35,7 +35,7 @@ List the ready features here:
 
 
 ## Project Status
-Project is: _in progress
+Project is: _in progress_
 
 ## Room for Improvement
 Enable software to detect other exercises such as push-ups, side planks
