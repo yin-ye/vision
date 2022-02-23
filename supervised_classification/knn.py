@@ -60,3 +60,5 @@ if __name__ == "__main__":
     accuracy = accuracy_score(y_test, y_pred) * 100
 
     print('Accuracy of the model:' + str(round(accuracy, 2)) + ' %.')
+
+    
