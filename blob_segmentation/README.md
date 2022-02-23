@@ -10,12 +10,12 @@
 
 
 ## Technologies Used
-- Python - version 3.9
+- Python - version 3.9.0
 - OpenCV - version 4.5.5
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./object_detection.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
